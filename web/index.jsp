@@ -8,9 +8,14 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
   <head>
-    <title>$Title$</title>
+    <title>Tu_Dien</title>
+    <meta charset="UTF-8">
   </head>
   <body>
-  $END$
+  <h2>VietNamese Dictionary</h2>
+  <form action="/Anh_Viet" method="post">
+    <input type="text"name="textSearch"placeholder="Enter you word">
+    <input type="submit"id="submit"value="Seach">
+  </form>
   </body>
 </html>
